@@ -53,6 +53,8 @@ reviewer can say pass or fail against it.
 - `state/STATE.md` — what is happening now (read at start of work) · `state/decisions.md` — settled,
   do not relitigate
 - `integrations/` — setup-from-zero playbooks: Linear, Sentry, PostHog, GitHub Actions
+- `skills/README.md` — the agent skills each pipeline step leans on, and how to install them (public
+  plugins, not vendored here)
 - `knowledge/index.md` — the project wiki (grep on demand, never preload)
 - `plan/chats/` — one session-handoff continuation at a time
 - **Your tracker (Linear)** — THE backlog. Nothing else is a backlog.

@@ -34,7 +34,9 @@ you need. This is the same discipline as the brainstorming skill: understand bef
 4. **Where PRs get slow or low-quality.** What actually hurts — reviews piling up, bugs slipping to
    prod, flaky tests, scope creep, no time to QA, context-switching? Rank the top two.
 5. **Tools you already use vs start from zero.** For each of Linear, Sentry, PostHog, GitHub Actions:
-   already using it, want to add it, or skip it?
+   already using it, want to add it, or skip it? Then the **skills** (`skills/README.md`): which
+   pipeline steps do they want backed by a skill (brainstorm, spec, tickets, TDD, review, front-end
+   design)? Point them at the install commands there; do not vendor skill content into the repo.
 6. **How much you want to stay in the loop.** Do you want to review every PR yourself, or let an AI
    reviewer gate most and only pull you in for the risky ones? (This sets the default review rigor.)
 7. **Your quality bar.** In one or two specifics, what does "good" mean for this product? (secure by
