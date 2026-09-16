@@ -1,0 +1,21 @@
+# Secrets and local env — never commit these
+.env
+.env.*
+*.pem
+*.key
+secrets/
+*-credentials.json
+
+# Agent + editor scratch
+.claude/worktrees/
+.wt/
+*.log
+.DS_Store
+
+# Node / Python common noise (adjust to your stack)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
